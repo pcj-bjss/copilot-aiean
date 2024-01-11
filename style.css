@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+#banner {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 50px;
+}
+
+#webchat {
+    height: calc(100% - 50px);
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
