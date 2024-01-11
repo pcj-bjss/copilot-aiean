@@ -3,7 +3,15 @@
     // Please visit https://microsoft.github.io/BotFramework-WebChat for customization samples.
     const styleOptions = {
         // Hide upload button.
-        hideUploadButton: true
+        hideUploadButton: true,
+
+        // To change bot icon:
+        accent: '#00809d',
+        botAvatarBackgroundColor: '#FFFFFF',
+              // Taken from bjss facebook image
+        botAvatarImage: 'https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/294491806_427448459430041_2788462465666790639_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=WEMwMxWbHucAX-RFRk9&_nc_oc=AQmfI09kKHur-AET3qYFv5EVs_RjKNzaBx0rxpUZmZt9xze2RaZYNviw-becjCE2pf0&_nc_ht=scontent-lhr8-1.xx&oh=00_AfBkKS14xAalRWUkDOFNz5U3HlSUmEEpSfeIY0mHRP5EFA&oe=65A4116B',
+        botAvatarInitials: 'BJSS',
+        userAvatarImage: 'https://cdn.pixabay.com/photo/2021/07/25/08/03/account-6491185_1280.png' //doesn't seem to be working
     };
 
     // Specifies the token endpoint URL.
