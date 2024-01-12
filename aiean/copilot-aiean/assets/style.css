@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+a {
+    color: #feb031;
+}
+
+a:hover {
+    color: #feb031;
+    font-weight: bold;
+}
+
+#banner {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 50px;
+}
+
+#webchat {
+    height: calc(100% - 50px);
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+.container {
+    display: flex; /* Use flexbox for the container */
+}
+
+.side-by-side {
+    flex: 1; /* Make the divs share the available space equally */
+    padding: 20px; /* Add some padding for spacing */
+
+}
+
+.main_title {
+    color: black;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 20px;
+    
+    margin: 0;
+    padding: 0 20px;
+}
+
+.sub_title {
+    color: #317ffe;
+    font-family: Poppins;
+    font-weight: bold;
+    line-height: 200px;
+    font-size: 60px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.text_container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
